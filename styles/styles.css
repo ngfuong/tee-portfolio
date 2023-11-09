@@ -1,0 +1,91 @@
+body {
+  background: #fff;
+  color: #444;
+  font-family: 'Hack', serif;
+  font-size: 14px;
+  overflow-x: hidden;
+  position: relative;
+}
+
+ul {
+  list-style: disc inside none;
+}
+
+.nav-wrapper {
+  width: 23%;
+  max-width: 217px;
+  padding: 0% 0 0% 5%;
+  float: left;
+  height: inherit;
+  margin-right: 2%;
+  border-right: 1px solid #ffffff;
+  background: #ffffff;
+  position: fixed;
+  overflow: auto;
+  padding: 4% 1% 0 3%;
+  left: 0;
+  top: 0;
+  padding-right: 40px;
+  padding-bottom: 60px;
+}
+
+
+footer, header, menu, nav {
+  display: block;
+}
+
+#menu {
+  margin-top: 32px;
+}
+
+#menu ul {
+  list-style-type: none;
+  padding: 0 0 0 0;
+}
+
+#menu li {
+  padding-top: 10px;
+}
+
+#menu li a {
+  text-decoration: none;
+  color: #222;
+  cursor: pointer;
+}
+
+.social-icons ul {
+  list-style-type: none;
+  display: flex;
+}
+
+#social {
+  list-style: none;
+  margin: 32px 0 0 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#social ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: left;
+  padding-left: 0;
+}
+
+#social li {
+  padding-right: 10px;
+}
+
+#social li a {
+  color: #000;
+  
+}
+
+.post_text {
+  margin: 10px 0 0 0;
+  width: 150px;
+  line-height: 1.2;
+  color: #aaa;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 11px;
+}
