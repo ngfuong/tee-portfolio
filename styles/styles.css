@@ -7,6 +7,13 @@ body {
   position: relative;
 }
 
+body h1 {
+  font-family: 'MesloLGS NF', serif;
+}
+body p {
+  font-family: 'MesloLGS NF', serif;
+}
+
 ul {
   list-style: disc inside none;
 }
@@ -51,6 +58,10 @@ footer, header, menu, nav {
   text-decoration: none;
   color: #222;
   cursor: pointer;
+  transition: opacity .5s;
+}
+ #menu li a:hover {
+  text-decoration: underline;
 }
 
 .social-icons ul {
